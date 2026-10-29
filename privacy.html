@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Privacy policy for Rocket Network Usage Monitor." />
+    <title>Privacy Policy | Rocket Network Usage Monitor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="container navbar navbar-expand-lg">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="ROCKET STORES home">
+          <img class="site-logo auto-image" src="images/logo.png" alt="ROCKET STORES logo" />
+          <span>ROCKET STORES</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link active" href="privacy.html" aria-current="page">Privacy Policy</a></li>
+          </ul>
+          <button class="btn btn-outline-light btn-sm theme-toggle" type="button" aria-label="Toggle theme">
+            <i class="bi bi-moon-stars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container py-5">
+      <article class="card p-4 p-lg-5">
+        <p class="eyebrow">Privacy</p>
+        <h1>Privacy Policy</h1>
+        <p class="lead">Network Usage Monitor</p>
+        <p><strong>Last reviewed:</strong> October 28, 2026.</p>
+        <p class="text-secondary">This policy describes the intended product scope. Before release, it must be compared with the shipped app, current Microsoft Store requirements, and laws in every market where the app will be offered. It is not legal advice.</p>
+
+        <h2 class="h3 mt-4">Information the app handles</h2>
+        <p>Network Usage Monitor reads Windows network connection profile information and Windows-reported usage totals, including bytes received, bytes sent, connection type, profile name, and usage time intervals. The app uses this information to display network usage and calculate quotas selected by the user.</p>
+        <p>The app also stores user-created settings locally, including quota values, quota periods, alert thresholds, whether quota notifications are enabled, and whether the user opted into start-with-Windows.</p>
+
+        <h2 class="h3 mt-4">Storage and sharing</h2>
+        <p>Usage records and settings are stored in the app's local data storage on the device. The app does not upload this information to a developer-operated server, cloud storage, advertising network, or analytics service. The app does not require an account.</p>
+        <p>If the user enables quota alerts, the app generates local Windows notifications after a collection refresh detects that a quota threshold has been reached. Notification content does not include network names or usage totals. Windows notification preferences control whether notifications are displayed.</p>
+        <p>If the user chooses the Pro CSV export feature, the app creates a file at a location chosen by the user. The user controls whether and with whom that exported file is shared.</p>
+        <p>Microsoft Store processes a Pro purchase and entitlement through Microsoft Store services. The app does not receive or store the user's payment card details.</p>
+
+        <h2 class="h3 mt-4">User controls and retention</h2>
+        <p>Users can change or remove their quota and settings, clear locally retained history, and uninstall the app. The free history view covers 30 days; the app can retain up to 60 days locally so monthly quotas remain accurate and delayed Windows estimates can be reconciled. Pro unlocks viewing and exporting the full 60-day Windows history window. Missing collection intervals are shown as gaps and are not represented as zero usage.</p>
+        <p>Automatic start with Windows is optional. Users can disable it in the app or through Windows startup controls. The app does not run with administrator privileges.</p>
+
+        <h2 class="h3 mt-4">Contact</h2>
+        <p>For support questions about Network Usage Monitor or this privacy policy, contact the publisher at <a href="mailto:rocketsoftwaresolution@gmail.com">rocketsoftwaresolution@gmail.com</a>.</p>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container d-flex flex-column flex-md-row justify-content-between gap-3">
+        <p>© <span id="year"></span> ROCKET STORES. Crafted for the next wave of builders.</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html" aria-current="page">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="js/telegram.js"></script>
+    <script src="js/ui.js"></script>
+  </body>
+</html>
